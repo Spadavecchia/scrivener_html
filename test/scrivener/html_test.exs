@@ -669,7 +669,7 @@ defmodule Scrivener.HTMLTest do
       assert {:safe,
               [
                 60,
-                "nav",
+                "div",
                 [[32, "aria-label", 61, 34, "Page navigation", 34]],
                 62,
                 [
@@ -707,7 +707,7 @@ defmodule Scrivener.HTMLTest do
                 ],
                 60,
                 47,
-                "nav",
+                "div",
                 62
               ]} =
                HTML.pagination_links(
